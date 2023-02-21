@@ -12,13 +12,21 @@ por lo que no ocupa mucha memoria.
 
 # Esto correrá infinitamente
 counter = count()
-while True:
-    print(next(counter))
-    # Esperamos un segundo para no ver una lista de números corriendo como locos
-    time.sleep(1)
+# while True:
+#     print(next(counter))
+#     # Esperamos un segundo para no ver una lista de números corriendo como locos
+#     time.sleep(1)
 
 # Pero el for lo hace automáticamente por nosotros
 
-for i in count():  # For llama automáticamente a next()
+for i in count():  # `For` llama automáticamente a next()
+    print(i)
+    time.sleep(1)
+    if i >= 1:
+        break
+
+# También puedes definir el inicio (incluso negativo y decimal) y el número que se le suma a cada iteración
+
+for i in count(-0.5, 0.2):
     print(i)
     time.sleep(1)
