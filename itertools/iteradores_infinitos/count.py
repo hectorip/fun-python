@@ -30,3 +30,5 @@ for i in count():  # `For` llama automáticamente a next()
 for i in count(-0.5, 0.2):
     print(i)
     time.sleep(1)
+
+## Esta es la principal diferencia con range, que no acepta números decimales, sólo enteros
