@@ -6,3 +6,4 @@ from itertools import filterfalse
 nombres = ["Juan", "Pedro", "Luis", "Ana", "María", "Lorena"]
 
 # ...
+
