@@ -1,9 +1,19 @@
-# Generadores
-# Un generador es una función que cuando se llama
-# devuelve un objeto iterable. Este objeto
 import time
+
+"""
+Generadores
+
+Un generador es una función que cuando se llama
+devuelve un objeto iterable. Cada que se llama a la función
+next() sobre este iterable, la función se ejecuta hasta que
+encuentra un `yield` que es como un return, pero pausa
+la ejecución de la función y guarda su estado hasta la próxima
+llamada a next(). La función continua su ejecución desde
+donde se quedó.
+"""
+
 def pares(n=None):
-    i = -2
+    i = -2 # el primer par es 0
     if n is None:
         while True:
             i += 2
