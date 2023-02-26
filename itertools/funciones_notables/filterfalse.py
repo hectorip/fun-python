@@ -5,5 +5,9 @@ from itertools import filterfalse
 
 nombres = ["Juan", "Pedro", "Luis", "Ana", "María", "Lorena"]
 
-# ...
+# Encontremos los nombres que no empiezan con "L"
 
+no_l = filterfalse(lambda x: x.startswith("L"), nombres)
+
+for name in no_l:
+    print(name)
