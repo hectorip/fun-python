@@ -15,7 +15,7 @@ for (i, j) in pares:
     print(i, j)
     print(i + j)
 
-# Hay algoritmos que requieren esto, por ejemplo, imagínate que quieres encontrar
+# Hay algoritmos que requieren trabajar con elementos, por ejemplo, imagínate que quieres encontrar
 # la suma más grande de dos elementos consecutivos en una lista.
 
 def max_consecutive_sum(numbers):
