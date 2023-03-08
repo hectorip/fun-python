@@ -21,3 +21,4 @@ for (i, j) in pares:
 def max_consecutive_sum(numbers):
     return max(a + b for a, b in pairwise(numbers))
 
+print("MAX consecutive sum:", max_consecutive_sum([1, 2, 3, 4,20,  5, 6, 7, 8, 9, 10]))
