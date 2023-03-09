@@ -15,4 +15,7 @@ permutaciones = permutations(elementos, 2)
 for p in permutaciones:
     print(p)
 
-# Esta función es muy útil porque las permutaciones pueden crecer muy rápido.
+# Esta función es muy útil porque las permutaciones pueden crecer muy rápido,
+# así que al tenerlas como un iterador, podemos empezar a trabajar con ellas,
+# primero sin hacerlo nosotros mismos y segundo, sin ocupar un montón de memoria
+# además de que tenemos la posibilidad de hacer permutaciones de tamaño arbitrario
