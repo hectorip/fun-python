@@ -15,4 +15,3 @@ for i in accumulate(valores):
 
 for i in accumulate(valores, lambda x, y: x * y):
     print(i)
-
