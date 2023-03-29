@@ -18,7 +18,9 @@ for (i, j) in pares:
 # Hay algoritmos que requieren trabajar con elementos, por ejemplo, imagínate que quieres encontrar
 # la suma más grande de dos elementos consecutivos en una lista.
 
+
 def max_consecutive_sum(numbers):
     return max(a + b for a, b in pairwise(numbers))
 
-print("MAX consecutive sum:", max_consecutive_sum([1, 2, 3, 4,20,  5, 6, 7, 8, 9, 10]))
+
+print("MAX consecutive sum:", max_consecutive_sum([1, 2, 3, 4, 20, 5, 6, 7, 8, 9, 10]))

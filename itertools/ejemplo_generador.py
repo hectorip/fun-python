@@ -12,8 +12,9 @@ llamada a next(). La función continua su ejecución desde
 donde se quedó.
 """
 
+
 def pares(n=None):
-    i = -2 # el primer par es 0
+    i = -2  # el primer par es 0
     if n is None:
         while True:
             i += 2
@@ -24,6 +25,7 @@ def pares(n=None):
         while i >= n:
             i += 2
             yield i
+
 
 par = pares()
 print(par)
