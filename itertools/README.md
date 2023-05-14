@@ -13,3 +13,7 @@ Si la colección es muy grande y los valores se pueden calcular algorítmicament
 Casi nunca vas a tener que implementar un iterador por tu cuenta, pero ahora ya sabes lo que hay que hacer para crear uno.
 
 Hay funciones que devuelven iteradores en lugar de listas y muchas de ellas están en el módulo `itertools`, que es el especializado en trabajar con iteradores.
+
+## Recetas
+
+Si quieres ejemplos de cómo usar `itertools`, puedes ver las recetas de la documentación oficial: [Recetas de Itertools](https://docs.python.org/3/library/itertools.html#itertools-recipes)

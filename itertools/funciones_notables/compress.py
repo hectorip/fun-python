@@ -19,8 +19,10 @@ asistencias = {
 # Quieres saber quién asisitió un día específico.
 # Con compress puedes crear una función así:
 
+
 def asistencias_dia(dia):
     return list(compress(nombres, asistencias[dia]))
+
 
 # Y ahora puedes usarla así:
 print(asistencias_dia("Lunes"))

@@ -1,19 +1,17 @@
-"""Accumulate
-
-    Devuelve un iterador que va acumulando todos los valores anteriores de la secuencia.
-    Por defecto, la función de acumulación es la suma, pero se puede pasar una función de acumulación.
 """
+Accumulate
 
+Devuelve un iterador que va acumulando todos los valores anteriores de la secuencia,
+muy parecido a reduce, pero haciéndolo de manera progresiva
+"""
 from itertools import accumulate
 
-acumulados = accumulate(["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"])
+valores = [1, 2, 3, 4, 5]
 
-for i in acumulados:
+for i in accumulate(valores):
     print(i)
 
-# También acepta una función de acumulación
+# También puede recibir una función de acumulación
 
-factoriales = accumulate(range(1, 1000), lambda x, y: x * y)
-
-for i in factoriales:
+for i in accumulate(valores, lambda x, y: x * y):
     print(i)

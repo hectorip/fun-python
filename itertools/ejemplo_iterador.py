@@ -1,7 +1,9 @@
 import time
 
+
 class Pares:
     """Devuelve todos los pares menores o iguales a n"""
+
     def __init__(self, n=None):
         self.max = n
         print("Se ha llamado a __init__")
@@ -20,6 +22,8 @@ class Pares:
         return self.n
 
 
-for i in Pares(): # no existe una lista de 100 elementos, sólo se crea un elemento a la vez
+for (
+    i
+) in Pares():  # no existe una lista de 100 elementos, sólo se crea un elemento a la vez
     print(i)
     time.sleep(0.2)
