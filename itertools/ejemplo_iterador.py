@@ -1,3 +1,6 @@
+"""
+Ejemplo de cómo implementar un iterador
+"""
 import time
 
 
@@ -22,8 +25,7 @@ class Pares:
         return self.n
 
 
-for (
-    i
-) in Pares():  # no existe una lista de 100 elementos, sólo se crea un elemento a la vez
+# no existe una lista de 100 elementos, sólo se crea un elemento a la vez
+for i in Pares():
     print(i)
     time.sleep(0.2)
