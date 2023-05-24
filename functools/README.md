@@ -1,5 +1,6 @@
 # Functools
 
 Contiene funciones que te ayudarán a seguir el estilo de programación funcional en Python.
+La idea de este directorio es explorar las cosas que se pueden hacer con este módulo y que es más probable que te sirvan en tu día a día.
 
-En este directorio vamos a explorar su comportamiento básico y algunas funciones notables que puedes empezar a usar para mejorar tu código, sobre todo lo que tiene que ver con colecciones y tratamiento de datos,entre ellas colecciones infinitas o con muchos datos.
+La programación funcional es muy adecuada para los problemas modernos que los sistemas de software enfrentan. Pero además, estamos en un punto del desarrollo tecnológico que nos permite usarla sin grandes penalizaciones en el rendimiento.
