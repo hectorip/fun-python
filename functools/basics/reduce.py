@@ -9,6 +9,7 @@ from functools import reduce
 # y empezar doblarla por cachitos, reduciendo su tamaño, hasta
 # que te queda un solo cachito (el resultado)
 
+
 # La reducción es un caso específico de doblado, que siempre empieza
 # por la izquierda y acumula el valor
 
